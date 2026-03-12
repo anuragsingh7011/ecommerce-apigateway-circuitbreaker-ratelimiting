@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 0
 
 spring:
   application:
@@ -39,4 +39,5 @@ management:
     web:
       exposure:
         include: health,info
+
 
