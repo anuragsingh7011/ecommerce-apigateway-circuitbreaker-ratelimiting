@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: config-serverr
+    name: config-server
 
   cloud:
     config:
@@ -11,5 +11,5 @@ spring:
         git:
           uri: https://github.com/anuragsingh7011/ecommerce-apigateway-circuitbreaker-ratelimiting.git
           default-label: main
-          search-paths: /config-data
+          search-paths: config-data
           clone-on-start: true
